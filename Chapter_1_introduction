@@ -1,0 +1,77 @@
+Exercise 1: What is the function of the secondary memory in a computer?
+
+a) Execute all of the computation and logic of the program
+b) Retrieve web pages over the Internet
+c) Store information for the long term, even beyond a power cycle
+d) Take input from the user
+
+Solution: c)
+Secondary memory is used to store information no matter the computer is closed or not.
+
+Exercise 2: What is a program?
+
+Solution: The stored instructions expected to be executed by CPU(answer the problem "What's next?") is called a program.
+
+Exercise 3: What is the difference between a compiler and an interpreter?
+
+Solution: Regardless of the fact that compiler needs to be handed the entire program in a file, but interpreter takes programs line by line.
+The essential difference is that compiler generates binary code(machine code), but interperter does not, it just converts into another type
+of language.
+#Python interpreter compiles .py files to .pyc files, which consists of bytecode, then python interpreters the bytecode.
+
+Exercise 4: Which of the following contains "machine code"?
+
+a) The Python interpreter
+b) The keyboard
+c) Python source file
+d) A word processing document
+
+Solution: a)
+
+Exercise 5: What is wrong with the following code:
+
+    >>> primt 'Hello world!'
+      File "<stdin>", line 1
+        primt 'Hello world!'
+                           ^
+    SyntaxError: invalid syntax
+    >>>
+Solution:		
+>>> print('Hello world!')
+Hello world!
+
+Exercise 6: Where in the computer is a variable such as "x" stored after the following Python line finishes?
+
+    x = 123
+a) Central processing unit
+b) Main Memory
+c) Secondary Memory
+d) Input Devices
+e) Output Devices
+
+Solution: b)
+
+Exercise 7: What will the following program print out:
+
+    x = 43
+    x = x + 1
+    print(x)
+a) 43
+b) 44
+c) x + 1
+d) Error because x = x + 1 is not possible mathematically
+
+Solution: b)
+
+Exercise 8:
+Central processing unit==Brain
+Main Memory            ==Knowledge in your brain
+Secondary Memory       ==Knowledge outside you
+Input Device           ==Knowledge in textbook which you intend to learn
+Output Device          ==Knowledge you expose
+
+Exercise 9: How do you fix a "Syntax Error"?
+
+Solution:
+  Find the grammar rules you break and replace it with a correct one according to the interpreter.
+
